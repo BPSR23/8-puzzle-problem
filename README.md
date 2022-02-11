@@ -14,9 +14,13 @@ So, basically in these types of problems we have given a initial state or initia
 
 Here We are solving a problem of 8 puzzle that is a 3x3 matrix.
 
-Initial state                                                                      Goal state
+Initial state                                                                      
 
+![image](https://user-images.githubusercontent.com/81702392/153543898-e8f419fc-a6f6-4da5-8596-7a5e3a456c2b.png)
                                                                
+Goal state
+
+![image](https://user-images.githubusercontent.com/81702392/153543959-ae0fbeae-0b0c-4b51-827c-6fd4a66834e6.png)
 
 Solution:
 The puzzle can be solved by moving the tiles one by one in the single empty space and thus achieving the Goal state.
@@ -36,7 +40,7 @@ The empty space cannot move diagonally and can take only one step at a time.
 
 All possible move of a Empty tile
 
-
+![image](https://user-images.githubusercontent.com/81702392/153543985-21bdfc6e-16b8-4162-8820-144d0638863d.png)
 
 o- Position total possible moves are (2), x - position total possible moves are (3) and 
 
@@ -46,7 +50,7 @@ Let's solve the problem without Heuristic Search that is Uninformed Search or Bl
 
 Breath First Search to solve Eight puzzle problem
 
-
+![image](https://user-images.githubusercontent.com/81702392/153544010-70f6acf3-0151-454f-a6f4-995abc1e6ef2.png)
 
 Note: If we solve this problem with depth first search, then it will go to depth instead of exploring layer wise nodes.
 
